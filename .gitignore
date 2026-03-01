@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Playwright outputs
+test-results/
+reports/
+allure-results/
+allure-report/
+playwright-report/
+
+# Logs
+logs/
+
+# TypeScript build output
+dist/
+
+# Environment overrides (never commit secrets)
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
